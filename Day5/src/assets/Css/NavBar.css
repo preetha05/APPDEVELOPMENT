@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px; /* Add padding here to create space around each link */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .student{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: "Inter";
+    background-image: url('https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace 'background-image.jpg' with your image file path */
+    background-size: cover; /* Adjust as needed to control how the image covers the container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image horizontally and vertically */
+    }
+    
+    

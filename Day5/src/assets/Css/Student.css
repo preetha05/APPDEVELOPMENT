@@ -1,0 +1,16 @@
+.student-container{
+    margin-top: 0%;
+}
+.student{display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+align-items: center;
+font-family: "Inter";
+background-image: url('https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace 'background-image.jpg' with your image file path */
+background-size: cover; /* Adjust as needed to control how the image covers the container */
+background-repeat: no-repeat;
+background-position: center; /* Center the image horizontally and vertically */
+}
+
+
